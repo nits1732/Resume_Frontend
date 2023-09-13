@@ -1,0 +1,252 @@
+img{
+    width: 100%;
+}
+.heading{
+    text-transform: uppercase;
+    color: #13222c;
+}
+ /* header */
+#header-text{
+    color: #404041;
+    font-size: 1.8rem;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    margin-bottom: 0%;
+}
+
+#header-image{
+    width: 210px;
+    margin-top: 50px;
+}
+
+#main-header{
+    margin-top: 60px;
+}
+
+/* main */
+
+main{
+    width: 70%;
+    display: inline-block;
+}
+
+#blog-header h1 {
+    color: #13222c;
+    font-family: sans-serif;
+    font-size: 3.2rem;
+}
+#author-panel{
+    display: inline-block;
+    width: 29%;
+    margin-bottom: 30px;
+    vertical-align: top;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+#author-panel img{
+    max-width: 60px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    vertical-align: middle;
+}
+#author-panel slash{
+    display: none;
+}
+#author-panel a{
+    color: #3c5349;
+    text-decoration: none;
+}
+#author-panel a:hover{
+    color: #dc6520;;
+    text-decoration: none;
+}
+#body-text{
+    display: inline-block;
+    width: 70%;
+    font-size: 1.1rem;
+    word-spacing: 1px;
+    line-height: 1.4;
+}
+#main-body{
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+/* Aside section */
+aside{
+    display: inline-block;
+    width: 21%;
+    vertical-align: top;
+    margin-left: 4%;
+}
+.widget{
+    margin-top: 3.5rem;
+    border-top: 4px solid black;   
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.widget input{
+    display: block;
+    background-color: #F7F7F7;
+    margin-bottom: 15px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+
+}
+
+.widget a{
+    color: #dc6520;
+    text-decoration: none;
+}
+
+.widget a:hover{
+    color: #1a1a1a;
+}
+
+.widget .widget-title{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    line-height: 1.4;
+    letter-spacing: 0.05rem;
+    font-size: 1.1rem;
+    word-spacing: 0.1rem;
+}
+
+.widget li{
+    margin-bottom: 0.25rem;
+}
+
+.widget p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+label {
+    color: #3c5349;
+    padding-bottom: 3px;
+    display: block;
+    font-size: 1rem;
+}
+
+button[type="submit"]{
+    font-size: 0.9rem;
+    background-color: black;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+}
+
+button[type="submit"]:hover{
+    background-color:#dc6520; ;
+}
+.widget-title{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#search form {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+#search input {
+    display: inline;
+    width: 80%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 0;
+}
+
+#search img {
+    width: 18px;
+    vertical-align: middle
+}
+
+#search button {
+    width: 12%;
+    margin-left: -4px;
+    padding: 7px 0 6px;
+    border-radius: 0 5px 5px 0;
+    line-height: 1.6;
+}
+
+#recent-posts li, #recent-comments li{
+    margin-bottom: 0.4rem;
+}
+
+#recent-comments .name {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+
+/* social */
+
+#social{
+    position: fixed;
+    top: 25%;
+    left: 0%;
+    line-height: 1;
+}
+
+.social-btn{
+    display: block;
+    padding: 14px 13px;
+    color: #ffffff;
+}   
+
+.social-img{
+    width: 12px;
+}
+#facebook {
+    background-color: #3b5998;
+  }
+#facebook:hover {
+    background-color: #2d4373;
+}
+  
+#linkedin {
+    background-color: #0077b5;
+}
+  
+#linkedin:hover {
+    background-color: #00121c;
+}
+  
+#twitter {
+    background-color: #83c3f3;
+}
+  
+#twitter:hover {
+    background-color: #55acee;
+}
+  
+#gmail {
+    background-color: #dd4b39;
+}
+  
+#gmail:hover {
+    background-color: #c23321;
+}
+  
+#whatsapp {
+    background-color: #6ba92f;
+}
+  
+#whatsapp:hover {
+    background-color: #528124;
+}
+  
+#mail {
+    background-color: #ed4926;
+}
+  
+#mail:hover {
+    background-color: #cf3311;
+}
